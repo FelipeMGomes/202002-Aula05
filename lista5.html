@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/lista5.css">
+    <title>Eleicao</title> 
+</head>
+
+<body>
+    <div>
+        <h1>
+            Candidatos participando da eleicao
+        </h1>
+    </div>
+    <div>
+        <table>
+                <tr>
+                    <td>Código do Candidato: 1</td> <td>Fabio</td>
+                </tr>
+                <tr>
+                    <td>Código do Candidato: 2</td> <td>Edivandro</td>
+                </tr>
+                <tr>
+                    <td>Código do Candidato: 3</td> <td>Jureg</td>
+                </tr>
+                <tr>
+                    <td>Código do Candidato: 4</td> <td>Felipe</td>
+                </tr>
+                <tr>
+                    <td>Código do Candidato: 5</td> <td>joana</td>
+                </tr>
+        </table>
+    </div>
+    
+    <div>
+        <input id="numero_votado" type="number" placeholder="informe o codigo do candidato"> <button id="bt_votar">votar</button>
+    </div>
+    <div>
+        <button id="apurar"> Apurar votos </button>
+    </div>
+
+    <div id="apuracao">
+        <h1>Apuração dos votos</h1>
+        <table>
+            <tr>
+                <td>Código do Candidato: 1</td> <td><label for="" id="result_cand1"></label></td>
+            </tr>
+            <tr>
+                <td>Código do Candidato: 2</td> <td><label for="" id="result_cand2"></label></td>
+            </tr>
+            <tr>
+                <td>Código do Candidato: 3</td> <td><label for="" id="result_cand3"></label></td>
+            </tr>
+            <tr>
+                <td>Código do Candidato: 4</td> <td><label for="" id="result_cand4"></label></td>
+            </tr>
+            <tr>
+                <td>Código do Candidato: 5</td> <td><label for="" id="result_cand5"></label></td>
+            </tr> 
+            <tr>
+                <td>votos nulos</td> <td><label for="" id="result_nulos"></label></td>
+            </tr>          
+        </table>
+
+        <h2 id='ganhador'></h2>
+    </div>
+</body>
+
+<footer>
+    <script src="../jquery-3.5.1.min.js"></script>
+    <script src="../TS/lista5.js"></script>
+</footer>
+</html> 

@@ -1,0 +1,22 @@
+body{
+    margin: 5px;
+    padding: 2px;
+}
+
+td{
+    padding-left: 35px;
+    padding-right: 40px;
+}
+
+input{
+    margin: 35px;
+    width: 15%;
+}
+
+#apurar{
+    margin: 35px
+}
+
+h2{
+    margin: 35px;
+}
